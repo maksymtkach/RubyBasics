@@ -51,7 +51,7 @@ def info(pages, edition)
 end
 
 puts "Введіть кількість сторінок"
-pages = gets.to_r
+pages = gets.to_f
 puts "Введіть кількість копій"
 copies = gets.to_f
 
